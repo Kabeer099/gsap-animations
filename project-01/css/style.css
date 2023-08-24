@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.nav {
+  height: 90px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.nav img {
+  height: 50px;
+}
+
+.nav-p2 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.nav-p2 h4 {
+  font-weight: 200;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.nav-p3 h4 {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.nav-p3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-p3 button {
+  background-color: #fff;
+  color: #000;
+  /* height: 30px; */
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.main h1 {
+  text-transform: uppercase;
+  /* text-align: center; */
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.main h1 span {
+  background-color: brown;
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 0 30px;
+}
+
+.left-img{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+  height: 180px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.right-img {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  height: 180px;
+  width: 120px;
+  border-radius: 10px;
+}
+.main h5{
+  margin: 20px 0;
+  text-align: center;
+  font-size: 16px;
+
+}
